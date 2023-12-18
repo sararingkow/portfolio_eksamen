@@ -34,6 +34,14 @@ hr {
   margin-left: 100px;
 }
 
+footer p {
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 18px;
+  text-align: left;
+}
+
 /* Generelle stilarter for footer */
 .site-footer {
   background-color: #e6e6e6;
