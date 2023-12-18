@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button,
+label,
+li,
+li a,
+ul li,
+h3 {
+  font-family: "Montserrat";
+}
+
+header,
+footer {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+/* list-tags */
+
+li,
+ul li,
+li a {
+  text-decoration: none;
+}
+
+hr {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* Generelle stilarter for footer */
+.site-footer {
+  background-color: #e6e6e6;
+  padding: 0;
+}
+
+.site-footer .bottom_text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo-footer {
+  width: 70%;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-left: 20px;
+}
+
+i {
+  font-size: 40px;
+  color: #a11a17;
+}
+
+i:hover {
+  color: #ababab;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column h3 {
+  list-style: none;
+  text-decoration: none;
+}
+
+.site-footer a {
+  color: #000000;
+  font-size: 15px;
+  line-height: 2;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+/* Footer container og kolonner */
+.footer-container {
+  max-width: 1400px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  max-width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Stilarter for teksten og logoet */
+.site-footer h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.site-footer img {
+  max-width: 120px;
+}
+
+.site-footer a:hover {
+  color: #c3c3c3;
+}
+
+/* Social medie ikoner og responsivt layout */
+.mail-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+/* Responsivitet for mindre skærmstørrelser */
+@media (max-width: 800px) {
+  .site-footer h3,
+  a {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .logo-footer {
+    width: 80%;
+  }
+
+  .site-footer img {
+    max-width: 120px;
+    margin-left: 5px;
+  }
+
+  .social-icons a {
+    margin: 0 5px;
+    margin-left: 0px;
+  }
+
+  .social-icons,
+  .mail-icon {
+    margin-left: 0px;
+  }
+
+  .footer-social,
+  .footer-mail {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px 0;
+  }
+}
+
+/* NAVIGATIONSBAR */
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 130px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.navbar {
+  display: flex;
+  font-family: "Montserrat";
+  justify-content: center; /* Centrerer indholdet vandret */
+  align-items: center; /* Centrerer indholdet lodret */
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #ababab;
+  padding: 14px 16px;
+}
+
+@media (max-width: 700px) {
+  .menu {
+    border: 7px solid #ffffff;
+  }
+
+  .navbar a {
+    margin-bottom: 0px;
+  }
+
+  .navbar {
+    color: rgb(0, 0, 0);
+  }
+
+  .logo {
+    display: none;
+  }
+}

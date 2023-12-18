@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+  color: #ffffff;
+}
+
+.container img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -180%);
+}
+
+h1 {
+  font-family: "Josefine Sans";
+  font-weight: 600;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.col_1-1 p {
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 22px;
+  text-align: left;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-left: 3%;
+}
+
+.col_1-2 {
+  margin-left: 50px;
+}
