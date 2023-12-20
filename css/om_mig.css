@@ -1,0 +1,27 @@
+.container3 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.container3 img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.centered3 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -180%);
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 80px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  text-align: left;
+}

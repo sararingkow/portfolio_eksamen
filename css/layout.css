@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
 
 * {
@@ -37,7 +36,6 @@ hr {
 footer p {
   color: #000000;
   font-family: "Montserrat";
-  font-weight: 100;
   font-size: 18px;
   text-align: left;
 }
@@ -62,7 +60,7 @@ footer p {
 
 i {
   font-size: 40px;
-  color: #a11a17;
+  color: #ababab;
 }
 
 i:hover {
@@ -226,7 +224,7 @@ i:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .menu {
     border: 7px solid #ffffff;
   }
@@ -240,6 +238,14 @@ i:hover {
   }
 
   .logo {
+    display: none;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+
+  hr {
     display: none;
   }
 }

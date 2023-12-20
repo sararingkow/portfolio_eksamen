@@ -12,25 +12,22 @@
   position: absolute;
   top: 45%;
   left: 50%;
-  transform: translate(-50%, -180%);
+  transform: translate(-50%, -190%);
 }
 
 h1 {
   font-family: "Josefin Sans";
-  font-weight: 600;
-  font-size: 80px;
+  font-size: 77px;
 }
 
 h2 {
   font-family: "Montserrat";
-  font-weight: 100;
   font-size: 25px;
 }
 
 .col_1-1 p {
   color: #000000;
   font-family: "Montserrat";
-  font-weight: 100;
   font-size: 22px;
   text-align: left;
 }
@@ -38,9 +35,51 @@ h2 {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding-left: 3%;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
-.col_1-2 {
-  margin-left: 50px;
+@media (max-width: 800px) {
+  .container {
+    color: #ffffff;
+  }
+
+  .centered {
+    position: absolute;
+    transform: translate(-50%, -295%);
+  }
+
+  .container img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-family: "Josefin Sans";
+    font-size: 24px;
+  }
+
+  h2 {
+    font-family: "Montserrat";
+    font-size: 15px;
+  }
+
+  .col_1-1 p {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .col_1-2 img {
+    transform: translate(10%, -3%);
+  }
 }
