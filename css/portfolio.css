@@ -43,25 +43,6 @@ em {
   text-align: left;
 }
 
-.grid_2-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.grid_2-1,
-.grid_2-2,
-.grid_2-3 {
-  gap: 80px;
-}
-
-.col_2-1 a,
-.col_2-2 a {
-  font-size: 12px;
-}
-
 .col_2-1 img,
 .col_2-2 img,
 .col_2-3 img {
@@ -69,4 +50,28 @@ em {
   object-fit: cover;
   max-width: 100%;
   height: 300px;
+}
+
+.col_2-1 a,
+.col_2-2 a,
+.col_2-3 a {
+  font-size: 12px;
+}
+
+.grid_2-1,
+.grid_2-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.grid_2-1,
+.grid_2-2 {
+  gap: 80px;
+}
+
+.grid_2-2 .col_2-1 a {
+  font-size: 15px;
 }

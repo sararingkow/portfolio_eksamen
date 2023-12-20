@@ -10,7 +10,7 @@
 button,
 label,
 li,
-li a,
+a,
 ul li,
 h3 {
   font-family: "Montserrat";
@@ -219,6 +219,7 @@ i:hover {
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   font-family: "Montserrat";
+  opacity: 60%;
 }
 
 #myBtn:hover {
