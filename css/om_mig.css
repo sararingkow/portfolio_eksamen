@@ -25,3 +25,9 @@ h2 {
   font-size: 18px;
   text-align: left;
 }
+
+.centered3 h2 {
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 25px;
+}
