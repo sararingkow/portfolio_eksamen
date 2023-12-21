@@ -1,3 +1,5 @@
+/* Styling & postionering*/
+
 .container3 {
   text-align: center;
   color: #ffffff;
@@ -23,11 +25,41 @@ h1 {
 h2 {
   font-family: "Montserrat";
   font-size: 18px;
-  text-align: left;
+}
+
+h3,
+ul li {
+  font-size: 14px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+.grid_3-1 ul li {
+  list-style: square;
 }
 
 .centered3 h2 {
   font-family: "Montserrat";
   font-weight: 100;
   font-size: 25px;
+}
+
+.col_3-1 img {
+  height: 300px;
+  width: 40%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/*Grids & kolonner*/
+
+.grid_3-1,
+.grid_3-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 60px;
+  padding: 6px;
 }
