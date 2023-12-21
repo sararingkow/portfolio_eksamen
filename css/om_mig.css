@@ -28,17 +28,19 @@ h2 {
 }
 
 h3,
-ul li {
-  font-size: 14px;
+h3 em {
+  font-size: 15px;
+  font-weight: 100;
 }
 
 p {
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 14.5px;
 }
 
 .grid_3-1 ul li {
-  list-style: square;
+  list-style: none;
+  font-size: 14.5px;
 }
 
 .centered3 h2 {
@@ -48,18 +50,127 @@ p {
 }
 
 .col_3-1 img {
+  display: grid;
   height: 300px;
-  width: 40%;
+  width: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin: auto;
+}
+
+.col_3-2 img {
+  display: grid;
+  height: 300px;
+  width: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.col_3-1 p,
+.col_3-2 p,
+.col_3-1 h2,
+.col_3-2 h2 {
+  text-align: center;
+}
+
+.col_3-1 hr {
+  margin: auto;
 }
 
 /*Grids & kolonner*/
 
-.grid_3-1,
-.grid_3-2 {
+.grid_3-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  margin-top: 30px;
   padding: 6px;
+  gap: 120px;
+}
+
+/* Media-queries */
+
+@media (max-width: 800px) {
+  .grid_3-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 3px;
+    gap: 50px;
+  }
+
+  .container3 {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container3 img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .centered3 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -480%);
+  }
+
+  .centered3 h2 {
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-family: "Josefin Sans";
+    font-size: 35px;
+  }
+
+  h2 {
+    font-family: "Montserrat";
+    font-size: 20px;
+  }
+
+  h3,
+  h3 em {
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .grid_3-1 ul li {
+    list-style: none;
+    font-size: 13.5px;
+    text-align: center;
+  }
+
+  .col_3-1 img {
+    display: grid;
+    height: 400px;
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .col_3-2 img {
+    display: grid;
+    height: 400px;
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .col_3-1 p,
+  .col_3-2 p,
+  .col_3-1 h2,
+  .col_3-2 h2 {
+    text-align: center;
+  }
+
+  .col_3-1 hr {
+    margin: auto;
+  }
 }
