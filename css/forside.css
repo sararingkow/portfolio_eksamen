@@ -81,7 +81,7 @@ a {
 
   .centered {
     position: absolute;
-    transform: translate(-50%, -500%);
+    transform: translate(-50%, -455%);
   }
 
   .container img {
@@ -91,13 +91,17 @@ a {
   }
 
   h1 {
-    font-family: "Josefin Sans";
+    font-family: "supermario256";
     font-size: 24px;
   }
 
   h2 {
     font-family: "Montserrat";
     font-size: 15px;
+  }
+
+  br hr {
+    display: none;
   }
 
   .col_1-1 p {

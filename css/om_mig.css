@@ -52,17 +52,19 @@ p {
 .col_3-1 img {
   display: grid;
   height: 300px;
-  width: 50%;
+  width: 70%;
   object-fit: cover;
   margin: auto;
+  border: 2px black solid;
 }
 
 .col_3-2 img {
   display: grid;
   height: 300px;
-  width: 50%;
+  width: 70%;
   object-fit: cover;
   margin: auto;
+  border: 2px black solid;
 }
 
 .col_3-1 p,
@@ -117,7 +119,7 @@ p {
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -480%);
+    transform: translate(-50%, -570%);
   }
 
   .centered3 h2 {
@@ -128,38 +130,38 @@ p {
 
   h1 {
     font-family: "Josefin Sans";
-    font-size: 35px;
+    font-size: 24px;
   }
 
   h2 {
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 15px;
   }
 
   h3,
   h3 em {
-    font-size: 14px;
+    font-size: 10.5px;
     font-weight: 100;
     text-align: center;
   }
 
   .grid_3-1 ul li {
     list-style: none;
-    font-size: 13.5px;
+    font-size: 11px;
     text-align: center;
   }
 
   .col_3-1 img {
     display: grid;
-    height: 400px;
-    width: 80%;
+    height: 200px;
+    width: 70%;
     object-fit: cover;
   }
 
   .col_3-2 img {
     display: grid;
-    height: 400px;
-    width: 80%;
+    height: 200px;
+    width: 70%;
     object-fit: cover;
   }
 
@@ -168,6 +170,16 @@ p {
   .col_3-1 h2,
   .col_3-2 h2 {
     text-align: center;
+  }
+
+  .col_3-1 h2,
+  .col_3-2 h2 {
+    font-size: 16px;
+  }
+
+  .col_3-1 p,
+  .col_3-2 p {
+    font-size: 11px;
   }
 
   .col_3-1 hr {

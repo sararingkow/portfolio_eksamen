@@ -10,6 +10,7 @@
   width: 100%;
   object-fit: cover;
 }
+
 .centered2 {
   position: absolute;
   top: 45%;
@@ -63,8 +64,8 @@ h2 {
   height: 300px;
 }
 
-.grid_2-1 a,
-.grid_2-2 a {
+a {
+  display: grid;
   font-size: 15px;
   font-family: "Montserrat";
   text-align: center;
@@ -78,7 +79,7 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   padding: 6px;
-  margin: 60px;
+  margin: 30px;
   gap: 80px;
 }
 
@@ -93,12 +94,29 @@ h2 {
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -215%);
+    transform: translate(-50%, -380%);
+  }
+
+  .container2 img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  br hr {
+    display: none;
+  }
+
+  a {
+    display: grid;
+    font-size: 13px;
+    font-family: "Montserrat";
+    text-align: center;
   }
 
   h1 {
     font-family: "Josefin Sans";
-    font-size: 50px;
+    font-size: 24px;
   }
 
   .centered2 h2 {
@@ -119,14 +137,14 @@ h2 {
 
   h2 {
     font-family: "Montserrat";
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
   }
 
   .grid_2-1 h2,
   .grid_2-2 h2 {
     font-family: "Montserrat";
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
   }
 
@@ -140,7 +158,7 @@ h2 {
   .col_2-3 p {
     color: #000000;
     font-family: "Montserrat";
-    font-size: 13px;
+    font-size: 11px;
     text-align: center;
   }
 }
