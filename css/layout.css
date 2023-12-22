@@ -69,7 +69,7 @@ i:hover {
 
 .site-footer a {
   color: #000000;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 2;
   text-decoration: none;
   font-family: "Montserrat";
@@ -92,7 +92,7 @@ i:hover {
 
 /* Stilarter for teksten og logoet */
 .site-footer h3 {
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
   font-weight: 600;
   color: #000000;
