@@ -144,3 +144,22 @@ a {
     color: #686868;
   }
 }
+
+/* Social medie ikoner og responsivt layout til footeren */
+.mail-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  gap: 10px;
+}
+.social-icons {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
