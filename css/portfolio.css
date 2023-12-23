@@ -162,7 +162,6 @@ a {
     text-align: center;
   }
 }
-
 /* Social medie ikoner og responsivt layout til footeren */
 .mail-icon {
   display: flex;
@@ -171,13 +170,4 @@ a {
   margin-bottom: 20px;
   margin-right: 20px;
   gap: 10px;
-}
-.social-icons {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 60px;
-}
-
-.social-icons a {
-  margin: 0 10px;
 }
