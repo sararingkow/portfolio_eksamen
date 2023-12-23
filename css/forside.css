@@ -12,7 +12,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -240%);
+  transform: translate(-50%, -220%);
 }
 
 h1 {
@@ -81,11 +81,11 @@ a {
 
   .centered {
     position: absolute;
-    transform: translate(-50%, -485%);
+    transform: translate(-50%, -430%);
   }
 
   .container img {
-    height: 200px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
   }
@@ -150,7 +150,6 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin: 20px;
   gap: 10px;
 }
