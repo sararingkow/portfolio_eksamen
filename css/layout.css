@@ -8,7 +8,7 @@
 }
 
 html {
-  --gray: #ebebeb;
+  --gray: #eeeeee;
 }
 
 button,
@@ -39,6 +39,10 @@ footer p {
   padding: 0;
 }
 
+.site-footer p {
+  text-align: center;
+}
+
 .logo-footer {
   max-width: 120px;
   margin: 20px;
@@ -59,8 +63,22 @@ i:hover {
 }
 
 .footer-column h3 {
+  font-size: 18px;
   list-style: none;
   text-decoration: none;
+}
+
+.footer-column {
+  display: grid;
+  max-width: 250px;
+  margin: 20px;
+}
+
+.site-footer ul li {
+  color: #000000;
+  font-size: 18px;
+  list-style: none;
+  text-align: center;
 }
 
 .site-footer a {
@@ -80,21 +98,6 @@ i:hover {
   flex-wrap: wrap;
 }
 
-.footer-column {
-  display: grid;
-  max-width: 250px;
-  text-align: center;
-  margin: 20px;
-}
-
-/* Stilarter for teksten og logoet */
-.site-footer h3 {
-  font-size: 20px;
-  text-align: center;
-  font-weight: 600;
-  color: #000000;
-}
-
 .site-footer a:hover {
   color: #686868;
 }
@@ -106,13 +109,23 @@ i:hover {
     justify-content: center;
   }
 
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   .site-footer a {
     font-size: 18px;
   }
 
   .site-footer p {
     font-size: 18px;
-    text-align: left;
+    text-align: center;
+  }
+
+  .site-footer ul li {
+    font-size: 18px;
+    text-align: center;
   }
 
   .logo-footer {
@@ -121,15 +134,6 @@ i:hover {
 
   .site-footer img {
     max-width: 120px;
-  }
-
-  .footer-mail {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .footer-mail img {
-    display: none;
   }
 }
 
@@ -207,10 +211,6 @@ i:hover {
   }
 
   .logo-footer {
-    display: none;
-  }
-
-  hr {
     display: none;
   }
 }
