@@ -1,25 +1,8 @@
 /* Styling & postionering*/
 
-.container3 {
-  text-align: center;
-  color: #ffffff;
-}
-
-.container3 img {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-}
-.centered3 {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -165%);
-}
-
 h1 {
   font-family: "Josefin Sans";
-  font-size: 80px;
+  font-size: 35px;
 }
 
 h2 {
@@ -50,19 +33,17 @@ p {
 }
 
 .col_3-1 img {
-  height: 300px;
   width: 80%;
+  height: 300px;
   object-fit: cover;
-  margin: auto;
-  border: 1px black solid;
+  border: 2px black dotted;
+  border-radius: 30px;
 }
 
 .col_3-2 img {
+  width: 40%;
   height: 300px;
-  width: 80%;
   object-fit: cover;
-  margin: auto;
-  border: 1px black solid;
 }
 
 .col_3-1 p,
@@ -72,41 +53,50 @@ p {
   text-align: left;
 }
 
-.col_3-1 hr {
-  margin: auto;
-}
-
-.col_3-1,
-.col_3-2 {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
 /*Grids & kolonner*/
-
 .grid_3-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.col_3-2 {
+  margin: 20px;
   padding: 8px;
-  gap: 40px;
+}
+
+.col_3-1 {
+  flex: 1;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  background-color: var(--gray); /*Variabel farve fra layout.css*/
+  box-shadow: -20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
+}
+
+.col_3-1 img,
+.col_3-1 ul li,
+.col_3-1 h1,
+.col_3-1 h2 {
+  position: sticky;
+  top: 0px;
+  padding: 4px;
+}
+
+.col_3-1 p {
+  color: #000;
+}
+
+.col_3-1 ul li {
+  list-style: square;
 }
 
 /* Media-queries */
-
 @media (max-width: 800px) {
   .grid_3-1 {
     display: grid;
     grid-template-columns: 1fr;
     padding: 4px;
     gap: 30px;
-  }
-
-  .col_3-1,
-  .col_3-2 {
-    margin-left: 40px;
-    margin-right: 40px;
   }
 
   .container3 {
@@ -119,6 +109,7 @@ p {
     width: 100%;
     object-fit: cover;
   }
+
   .centered3 {
     position: absolute;
     top: 45%;
