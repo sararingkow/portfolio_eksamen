@@ -12,7 +12,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -220%);
+  transform: translate(-50%, -200%);
 }
 
 h1 {
@@ -81,7 +81,7 @@ a {
 
   .centered {
     position: absolute;
-    transform: translate(-50%, -430%);
+    transform: translate(-50%, -380%);
   }
 
   .container img {
