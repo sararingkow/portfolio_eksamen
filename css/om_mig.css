@@ -136,7 +136,7 @@ p {
     background-color: var(--gray);
     border-radius: 5px;
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .col_3-2-2 li {
@@ -160,6 +160,12 @@ p {
     font-size: 15px;
   }
 
+  h2 em {
+    display: grid;
+    font-size: 15px;
+    text-align: center;
+  }
+
   h3,
   h3 em {
     font-size: 14px;
@@ -181,21 +187,16 @@ p {
     object-fit: cover;
   }
 
-  .col_3-1 p,
-  .col_3-2 p,
   .col_3-1 h2,
-  .col_3-2 h2 {
+  .col_3-2 h2,
+  .col_3-1 p,
+  .col_3-2 p {
+    font-size: 15px;
     text-align: left;
   }
 
-  .col_3-1 h2,
-  .col_3-2 h2 {
-    font-size: 14px;
-  }
-
-  .col_3-1 p,
-  .col_3-2 p {
-    font-size: 12px;
+  hr {
+    display: none;
   }
 }
 
