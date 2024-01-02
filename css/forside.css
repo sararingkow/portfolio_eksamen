@@ -51,27 +51,6 @@ a {
   margin: auto;
 }
 
-/* Til knappen */
-
-#btn {
-  display: grid;
-  justify-content: flex-start;
-  margin-top: 60px;
-}
-
-#btn button {
-  font-size: 15px;
-  color: #000000;
-  background-color: #e6e6e6;
-  border: 1px gray solid;
-  width: 140px;
-  cursor: pointer;
-}
-
-#btn button:hover {
-  color: #686868;
-}
-
 /* Til media-queries */
 
 @media (max-width: 800px) {
