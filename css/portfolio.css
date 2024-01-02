@@ -65,6 +65,7 @@ h3 {
 
 .hover-image:hover {
   width: 300px;
+  border: 2px #ffffff dotted;
   background-color: #ffffff;
   opacity: 0.5;
 }
