@@ -1,0 +1,80 @@
+/* Til styling & positionering */
+.container3 img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.centered3 {
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -118%);
+}
+
+.centered3 h2 {
+  font-family: "Montserrat";
+  color: #ffffff;
+  text-align: center;
+  font-size: 17.5px;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  color: #ffffff;
+  text-align: center;
+  font-size: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  color: #000000;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+form {
+  padding: 2rem;
+  background: #e6e6e6;
+  border-radius: 8px;
+  display: grid;
+  width: 40%;
+  height: 330px;
+  gap: 10px;
+  margin-left: 20px;
+  align-content: center;
+}
+
+.contact_formular h2 {
+  text-align: left;
+}
+
+#Besked {
+  height: 100px;
+}
+
+.kontakt_knap {
+  text-decoration: none;
+  border: 0;
+  line-height: 1.5;
+  padding: 5px;
+  width: 140px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #585858;
+}
+
+.kontakt_knap:hover {
+  background-color: rgb(127, 0, 0);
+  cursor: pointer;
+}
