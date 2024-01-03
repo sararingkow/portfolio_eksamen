@@ -120,6 +120,18 @@ i:hover {
   font-family: "Montserrat";
 }
 
+.bottom {
+  margin: 20px;
+}
+
+.bottom a {
+  color: #000000;
+  font-size: 15px;
+  line-height: 2;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
 /* Footer container og kolonner */
 .footer-container {
   max-width: 1400px;
@@ -165,6 +177,15 @@ i:hover {
 
   .site-footer img {
     max-width: 120px;
+  }
+
+  .bottom {
+    text-align: center;
+  }
+
+  .bottom a {
+    font-size: 12px;
+    font-family: "Montserrat";
   }
 }
 
@@ -230,7 +251,7 @@ i:hover {
 
   .navbar a {
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .navbar {
