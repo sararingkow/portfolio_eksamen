@@ -46,9 +46,8 @@ footer p {
 /* Til knappen */
 
 #btn {
-  display: grid;
-  justify-content: flex-start;
-  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #btn button {
