@@ -117,6 +117,7 @@ a {
     background-color: #e6e6e6;
     border: 1px gray solid;
     width: 140px;
+    border-radius: 20px;
   }
 
   #btn button:hover {
