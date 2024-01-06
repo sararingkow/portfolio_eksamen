@@ -46,6 +46,7 @@
 .floatright1_1,
 .floatright1_2,
 .floatright1_3 {
+  display: flex;
   margin: 10px;
 }
 
@@ -75,6 +76,7 @@ main {
 }
 
 h1 {
+  text-align: center;
   font-family: "Josefin Sans";
   font-size: 35px;
 }
@@ -86,7 +88,7 @@ h2 em {
 
 h2 {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h3,
@@ -102,6 +104,15 @@ h4 em {
 }
 
 p {
+  display: flex;
+  justify-content: center;
   font-family: "Montserrat";
-  font-size: 15px;
+  font-size: 18px;
+}
+
+.row a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
 }

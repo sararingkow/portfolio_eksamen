@@ -1,44 +1,118 @@
-/* Til styling & positionering */
-.container3 img {
-  height: 300px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
   width: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
 }
 
-.centered3 {
-  text-align: center;
-  color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -280%);
+.combined-column {
+  display: flex;
 }
 
-.centered3 h2 {
-  font-family: "Montserrat";
-  color: #ffffff;
-  text-align: center;
-  font-size: 17.5px;
+/*STICKY COLUMN*/
+
+.sticky-column {
+  flex: 1;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  background-color: var(--gray); /*Variabel farve fra layout.css*/
+  box-shadow: -20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
+  width: 100%;
 }
 
-h1 {
+.sticky-indhold {
+  position: sticky;
+  top: 0px;
+  padding: 5%;
+}
+
+.sticky-indhold p {
+  color: #000;
+}
+
+.sticky-indhold h1 {
   font-family: "Josefin Sans";
-  color: #ffffff;
+  color: #000000;
   text-align: center;
-  font-size: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-top: 40px;
+  font-size: 30px;
+}
+
+.contact_info li {
+  text-align: center;
+}
+
+.contact_info ul li {
+  list-style: none;
+}
+
+.socials {
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.social_col1 {
+  display: flex;
+  justify-content: end;
+}
+
+.social_col2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social_col1 img,
+.social_col2 img {
+  width: 55%;
+  opacity: 60%;
 }
 
 h2 {
   font-family: "Montserrat";
+  font-size: 20px;
+  color: #686868;
+  text-align: center;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+}
+
+h3 {
+  font-size: 24px;
   color: #000000;
   text-align: left;
+  padding-top: 2%;
+}
+
+/*MAIN COLUMN*/
+
+.main-column {
+  flex: 3;
+  margin: 40px;
+}
+
+.main-column h1 {
+  font-family: "Josefin Sans";
+  color: #000;
+  font-size: 35px;
+}
+
+.main-column p {
+  font-family: "Montserrat";
+  color: #000;
   font-size: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px;
+}
+
+.main-column img {
+  width: 40%;
+  height: 300px;
+  object-fit: cover;
+  border: 2px black dotted;
+  border-radius: 20px;
 }
 
 form {
@@ -46,35 +120,116 @@ form {
   background: #e6e6e6;
   border-radius: 8px;
   display: grid;
-  width: 40%;
-  height: 330px;
-  gap: 10px;
-  margin-left: 20px;
-  align-content: center;
+  gap: 5px;
+  margin-top: 20px;
 }
 
-.contact_formular h2 {
-  text-align: left;
+textarea {
+  width: 100%;
 }
 
-#Besked {
-  height: 100px;
+img {
+  max-height: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
 
-.kontakt_knap {
-  text-decoration: none;
+.background {
+  background-color: #24292f;
+}
+
+.text {
+  padding: 30px 30px 30px;
+  line-height: 1.5em;
+  border-bottom: 2px solid #24292f;
+}
+
+.paragraph {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+/*KNAP STYLING FOR FORM*/
+.form_btn {
   border: 0;
-  line-height: 1.5;
-  padding: 5px;
-  width: 140px;
-  font-size: 15px;
-  text-align: center;
+  line-height: 2.5;
+  padding: 0 10px;
+  font-size: 1rem;
   color: #fff;
-  border-radius: 8px;
-  background-color: #585858;
+  border-radius: 12px;
+  background-color: #686868;
+  width: 100px;
 }
 
-.kontakt_knap:hover {
-  background-color: rgb(127, 0, 0);
+.form_btn:hover {
+  background-color: #888888;
   cursor: pointer;
+}
+
+.form_btn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1000px) {
+  .main-column {
+    margin: 20px;
+  }
+
+  .main-column h1 {
+    padding-top: 3%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .main-column p {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .main-column img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .combined-column {
+    flex-direction: column-reverse;
+  }
+
+  .sticky-column,
+  .main-column {
+    flex: initial; /* Fjerner flex-egenskaber på mindre skærme */
+    position: static; /* Fjerner sticky position på mindre skærme */
+  }
+
+  .paragraph {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .main-column {
+    margin: 0px;
+  }
+
+  .sticky-column {
+    padding: 20px;
+  }
+
+  .sticky-indhold {
+    padding: 20px;
+  }
 }

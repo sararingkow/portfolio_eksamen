@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/kontakt.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="shortcut icon" href="img/logo_favicon.webp" type="image/webp">
-
     <meta name="robots" content="noindex">
     <title>Kontakt</title>
 </head>
@@ -26,31 +25,67 @@
             </div>
         </div>
     </header>
+
+
     <main>
-        <div class="container3">
-            <img src="img/blurred2_img.webp" alt="billede af en solnedgang">
-            <div class="centered3">
+        <hr>
+        <div class="combined-column">
+            <div class="sticky-column">
+                <!-- Indhold til den sticky venstre kolonne -->
+                <!-- Kopier dit eksisterende indhold her -->
+                <div class="sticky-indhold">
+                    <h1>Skriv til mig her</h1>
+                    <form name="kontakt">
+                        <!-- Formular-indhold -->
+                        <label for="Navn"> Navn</label>
+                        <input id="Navn" name="Navn" type="text">
+
+                        <label for="Email">Email</label>
+                        <input id="Email" name="Email" type="email">
+
+                        <label for="Besked">Besked</label>
+                        <label>
+                            <textarea name="besked" rows="5"></textarea>
+                        </label>
+                        <button class="form_btn">Indsend</button>
+                    </form>
+
+                    <h2><u>Email & telefon</u></h2>
+                    <div class="contact_info">
+                        <ul>
+                            <li><em>Sara.ringkow@gmail.com</em></li>
+                            <li><em>+45 42428807</em></li>
+                        </ul>
+                        <br>
+                    </div>
+                    <h2><u>Sociale medier</u></h2>
+                    <div class="socials">
+                        <div class="social_col1">
+                            <a href="https://www.linkedin.com/in/sara-ringkow-petersen-49830b264/">
+                                <img src="img/linkedin.png" alt="linkedin logo"></a>
+                        </div>
+                        <div class="social_col2">
+                            <a href="https://www.instagram.com/sara_ringkow/">
+                                <img src="img/instagram.png" alt="instagram logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-column">
                 <h1>Kontakt</h1>
+                <p>Ring eller skriv en besked, find mig på de sociale medier, eller brug formularen for at skrive en
+                    mail til mig–– hvis du eventuelt har et spørgsmål eller to. Så
+                    svarer jeg så hurtigst som muligt!
+                </p>
+                <br>
+                <img src="img/window.svg" alt="ai-genereret billede af en blond pige">
             </div>
         </div>
-        <div class="contact_formular">
-            <br>
-            <form name="kontakt">
-                <!-- Formular-indhold -->
-                <label for="Navn"> Navn</label>
-                <input id="Navn" name="Navn" type="text">
-
-                <label for="Email">Email</label>
-                <input id="Email" name="Email" type="email">
-
-                <label for="Besked">Besked</label>
-                <textarea name="Besked" rows="5"></textarea>
-                <button class="kontakt_knap">Indsend</button>
-            </form>
-            <br>
-        </div>
     </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
 </body>
+
 <footer class="site-footer">
     <div class="footer-container">
         <div class="logo-column">
@@ -76,7 +111,7 @@
             </ul>
         </div>
         <div class="footer-column">
-            <p><b>Kontakt mig her:</b></p>
+            <h3>Kontakt mig her:</h3>
             <ul>
                 <li>
                     Sara.ringkow@gmail.com
