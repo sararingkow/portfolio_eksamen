@@ -109,6 +109,40 @@ p {
 .row a {
   display: flex;
   justify-content: center;
-  text-align: center;
   padding-top: 5%;
+}
+
+@media (max-width: 800px) {
+  .container2_2 {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .floatleft1,
+  .floatright2,
+  .floatright2_1,
+  .floatright2_3,
+  .floatright2_4 {
+    grid-column: 1/4;
+  }
+
+  .row img,
+  .row3,
+  .row3_1,
+  .row3_2,
+  .row3_3,
+  .row3_4 {
+    display: none;
+  }
+
+  p,
+  h2 {
+    text-align: center;
+    font-size: 14.5px;
+  }
+
+  #btn {
+    display: grid;
+    justify-content: center;
+  }
 }

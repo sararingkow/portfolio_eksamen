@@ -46,7 +46,6 @@
 .floatright1_1,
 .floatright1_2,
 .floatright1_3 {
-  display: flex;
   margin: 10px;
 }
 
@@ -100,7 +99,7 @@ h3 em {
 h4,
 h4 em {
   font-family: "Montserrat";
-  font-size: 15px;
+  font-size: 18px;
 }
 
 p {
@@ -115,4 +114,40 @@ p {
   justify-content: center;
   text-align: center;
   padding-top: 5%;
+}
+
+@media (max-width: 800px) {
+  .container2_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .floatleft,
+  .floatright1,
+  .floatright1_1,
+  .floatright1_3,
+  .floatright1_4 {
+    grid-column: 1/4;
+  }
+
+  .row img,
+  .row1,
+  .row1_1,
+  .row1_2,
+  .row1_3,
+  .row1_4 {
+    display: none;
+  }
+
+  p,
+  h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #btn {
+    display: grid;
+    justify-content: center;
+  }
 }

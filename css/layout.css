@@ -207,6 +207,23 @@ i:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+#btn {
+  display: grid;
+}
+
+#btn button {
+  font-size: 15px;
+  color: #000000;
+  background-color: #e6e6e6;
+  border: 1px gray solid;
+  width: 150px;
+  border-radius: 5px;
+}
+
+#btn button:hover {
+  color: #686868;
+}
+
 @media (max-width: 800px) {
   .menu {
     border: 7px solid #ffffff;
