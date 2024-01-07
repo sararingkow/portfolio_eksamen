@@ -218,6 +218,7 @@ i:hover {
   border: 1px gray solid;
   width: 150px;
   border-radius: 5px;
+  margin-left: 40px;
 }
 
 #btn button:hover {
