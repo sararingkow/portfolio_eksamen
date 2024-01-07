@@ -86,24 +86,12 @@ h2 em {
 
 h2 {
   font-family: "Montserrat";
-  font-size: 18px;
-}
-
-h3,
-h3 em {
-  font-family: "Montserrat";
-  font-size: 16px;
-}
-
-h4,
-h4 em {
-  font-family: "Montserrat";
   font-size: 15px;
 }
 
 p {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14.5px;
 }
 
 .row a {
