@@ -32,6 +32,11 @@ p {
   font-size: 14px;
 }
 
+.col_3-1 p {
+  list-style: none;
+  font-size: 15px;
+}
+
 .col_3-1 ul li {
   list-style: none;
   font-size: 15px;
@@ -82,7 +87,7 @@ p {
 }
 
 .col_3-1 ul li {
-  list-style: square;
+  list-style: decimal;
 }
 
 .col_3-2 {
