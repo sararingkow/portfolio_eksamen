@@ -96,6 +96,11 @@ p {
   font-size: 15.5px;
 }
 
+#btn {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 800px) {
   .container2_1 {
     display: grid;
@@ -118,7 +123,7 @@ p {
   .floatright1_2,
   .floatright1_3,
   .floatright1_4 {
-    margin: 25px;
+    margin: 20px;
   }
 
   .row img,
@@ -135,9 +140,8 @@ p {
     text-align: center;
     font-size: 16px;
   }
-
   #btn {
-    display: grid;
+    display: flex;
     justify-content: center;
   }
 }

@@ -103,14 +103,9 @@ h3 {
 
   h1 {
     font-family: "Josefin Sans";
-    font-size: 24px;
+    font-size: 40px;
   }
 
-  .centered2 h2 {
-    font-family: "Montserrat";
-    font-size: 15px;
-    font-weight: 100;
-  }
   .grid_2-1,
   .grid_2-2 {
     display: grid;

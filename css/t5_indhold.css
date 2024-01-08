@@ -92,13 +92,17 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 5%;
 }
 
 p {
   font-family: "Montserrat";
   line-height: 1.5;
   font-size: 15.5px;
+}
+
+#btn {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 800px) {
@@ -108,6 +112,7 @@ p {
     gap: 10px;
   }
 
+  .row,
   .floatleft4,
   .floatright5,
   .floatright5_1,
@@ -115,7 +120,7 @@ p {
   .floatright5_4 {
     grid-column: 1/4;
   }
-
+  .row,
   .floatleft4,
   .floatright5,
   .floatright5_1,

@@ -42,8 +42,7 @@ a {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 60px;
-  padding: 6px;
+  margin: 40px;
 }
 
 .col_1-2 img {
@@ -60,7 +59,7 @@ a {
 
   .centered {
     position: absolute;
-    transform: translate(-50%, -380%);
+    transform: translate(-50%, -330%);
   }
 
   .container img {
@@ -71,12 +70,12 @@ a {
 
   h1 {
     font-family: "Josefin Sans";
-    font-size: 24px;
+    font-size: 30px;
   }
 
   h2 {
     font-family: "Montserrat";
-    font-size: 15px;
+    font-size: 20px;
   }
 
   br hr {
@@ -86,7 +85,7 @@ a {
   .col_1-1 p {
     color: #000000;
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
   }
 
@@ -94,8 +93,6 @@ a {
   .grid_1-2 {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 40px;
-    margin-right: 40px;
   }
 
   .col_1-2 img {
@@ -107,8 +104,8 @@ a {
   #btn {
     display: grid;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   #btn button {

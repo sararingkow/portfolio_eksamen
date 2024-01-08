@@ -73,8 +73,6 @@ i:hover {
   display: flex;
   font-size: 17px;
   font-weight: 600;
-  list-style: none;
-  text-decoration: none;
   color: #000000;
   justify-content: center;
 }
@@ -208,10 +206,6 @@ i:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-#btn {
-  display: grid;
-}
-
 #btn button {
   font-size: 15px;
   color: #000000;
@@ -219,7 +213,6 @@ i:hover {
   border: 1px gray solid;
   width: 200px;
   border-radius: 5px;
-  margin-left: 40px;
 }
 
 #btn button:hover {

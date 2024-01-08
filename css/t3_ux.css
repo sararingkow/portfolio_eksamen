@@ -90,6 +90,11 @@ p {
   padding-top: 5%;
 }
 
+#btn {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 800px) {
   .container2_2 {
     grid-template-columns: 1fr;
@@ -130,7 +135,7 @@ p {
   }
 
   #btn {
-    display: grid;
+    display: flex;
     justify-content: center;
   }
 }

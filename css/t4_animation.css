@@ -73,6 +73,11 @@
   border-radius: 30px;
 }
 
+#btn {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Styling & postionering*/
 
 main {
@@ -104,17 +109,17 @@ h2 {
 
 p {
   font-family: "Montserrat";
-  line-height: 1.5;
-  font-size: 15.5px;
+  line-height: 1.8;
+  font-size: 14.5px;
 }
 
 @media (max-width: 800px) {
   .container2_3 {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
   }
 
+  .row,
   .floatleft3,
   .floatright3,
   .floatright4,
@@ -131,7 +136,7 @@ p {
   .floatright3_2,
   .floatright3_3,
   .floatright3_4 {
-    margin: 20px;
+    margin: 25px;
   }
 
   .row img,
