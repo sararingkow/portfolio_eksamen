@@ -12,12 +12,12 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -200%);
+  transform: translate(-50%, -210%);
 }
 
 h1 {
-  font-family: "Josefin Sans";
-  font-size: 77px;
+  font-family: "Tektur";
+  font-size: 60px;
 }
 
 a {
@@ -30,13 +30,17 @@ a {
   font-weight: 100;
 }
 
-/* Til grids & kolonner */
-
 .col_1-1 p {
   color: #000000;
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
+}
+
+/* Til grids & kolonner */
+
+.col_1-1 {
+  margin: 40px;
 }
 
 .grid_1-1 {
@@ -59,7 +63,7 @@ a {
 
   .centered {
     position: absolute;
-    transform: translate(-50%, -330%);
+    transform: translate(-50%, -320%);
   }
 
   .container img {
@@ -69,8 +73,8 @@ a {
   }
 
   h1 {
-    font-family: "Josefin Sans";
-    font-size: 30px;
+    font-family: "Tektur";
+    font-size: 27px;
   }
 
   h2 {
@@ -85,10 +89,13 @@ a {
   .col_1-1 p {
     color: #000000;
     font-family: "Montserrat";
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
   }
 
+  .col_1-1 {
+    margin: 20px;
+  }
   .grid_1-1,
   .grid_1-2 {
     display: grid;

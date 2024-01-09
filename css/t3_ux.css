@@ -69,7 +69,7 @@ main {
 
 h1 {
   text-align: center;
-  font-family: "Josefin Sans";
+  font-family: "Tektur";
   font-size: 35px;
 }
 
@@ -81,7 +81,7 @@ h2 {
 p {
   font-family: "Montserrat";
   line-height: 1.8;
-  font-size: 15.5px;
+  font-size: 15px;
 }
 
 .row a {
