@@ -113,7 +113,6 @@ p {
     gap: 10px;
   }
 
-  .row,
   .floatleft4,
   .floatright5,
   .floatright5_1,
@@ -127,7 +126,7 @@ p {
   .floatright5_1,
   .floatright5_3,
   .floatright5_4 {
-    margin: 25px;
+    margin: 30px;
   }
 
   .row img,
