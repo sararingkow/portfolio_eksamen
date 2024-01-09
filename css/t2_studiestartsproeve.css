@@ -134,6 +134,10 @@ p {
     display: none;
   }
 
+  #btn hr {
+    display: none;
+  }
+
   p,
   h2 {
     text-align: center;

@@ -93,6 +93,7 @@ p {
 #btn {
   display: flex;
   justify-content: space-between;
+  margin-left: 40px;
 }
 
 @media (max-width: 800px) {
@@ -137,5 +138,10 @@ p {
   #btn {
     display: flex;
     justify-content: center;
+    margin-left: 10px;
+  }
+
+  #btn hr {
+    display: none;
   }
 }

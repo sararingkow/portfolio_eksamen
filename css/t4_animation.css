@@ -168,4 +168,8 @@ p {
     margin-left: 20px;
     gap: 10px;
   }
+
+  .floatright3_4 hr {
+    display: none;
+  }
 }

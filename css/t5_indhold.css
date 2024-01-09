@@ -150,4 +150,8 @@ p {
     margin-left: 40px;
     gap: 10px;
   }
+
+  .floatright5_4 hr {
+    display: none;
+  }
 }
