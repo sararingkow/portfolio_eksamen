@@ -134,10 +134,6 @@ p {
     display: none;
   }
 
-  #btn hr {
-    display: none;
-  }
-
   p,
   h2 {
     text-align: center;
@@ -147,5 +143,9 @@ p {
     display: flex;
     justify-content: center;
     margin-left: 10px;
+  }
+
+  .floatright1_4 hr {
+    display: none;
   }
 }
