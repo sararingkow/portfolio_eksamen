@@ -106,7 +106,7 @@ p {
   .floatright2_1,
   .floatright2_3,
   .floatright2_4 {
-    grid-column: 1/4;
+    grid-column: 1/2;
   }
 
   .floatleft1,
